@@ -1,0 +1,11 @@
+The Factory Method Pattern is a creational design pattern that provides an interface for creating objects in a superclass but allows subclasses to alter the type of objects that will be created.
+In simple terms, it helps to create objects without specifying the exact class of object that will be created.
+A Factory Class decides which subclass or object to return based on given input.
+It promotes loose coupling between the client and the object creation logic.
+Commonly used when the exact type of object to create is determined at runtime.
+
+Input:
+The input is usually a string or value passed to the factory method indicating which type of object to create.
+
+Output:
+The output is the object created by the factory method, which can then perform its action using a common interface.
