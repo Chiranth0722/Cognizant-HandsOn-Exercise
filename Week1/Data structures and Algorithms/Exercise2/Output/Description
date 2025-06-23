@@ -1,1 +1,12 @@
-.
+The E-commerce Platform Search Function is a Java program that allows users to search for products based on a keyword (product name or category). It simulates a basic product search feature commonly found in online shopping applications.
+This program defines a Product class with attributes like name, category, and price. It stores a list of sample products using an ArrayList. The user is prompted to enter a search keyword (like "electronics" or "Nike"), and the program searches the list for matching products based on their name or category using the contains() method.
+Input:
+A search keyword entered by the user (e.g., a product name like "iPhone" or a category like "Electronics").
+
+Output:
+A list of matching products, displaying:
+
+Product name
+Category
+Price
+Or, a message stating no products found.
