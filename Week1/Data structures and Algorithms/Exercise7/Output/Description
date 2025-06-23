@@ -1,1 +1,16 @@
+The Financial Forecasting program is a Java application that predicts the future savings of a user based on their current investment, monthly contributions, interest rate, and time period.
+This program calculates how much money a person will have in the future if they:
+Start with an initial investment
+Add a fixed amount every month
+Earn compound interest monthly
+Invest for a specified number of years
+Input:
+It uses a for loop to calculate monthly growth and displays the final amount at the end of the forecast period.
+The user is required to enter the following values:
+Initial investment (e.g., ₹2,50,000)
+Monthly contribution (e.g., ₹15,000)
+Annual interest rate in percentage (e.g., 10%)
+Forecast period in years (e.g., 15)
 
+Output:
+The program outputs the estimated savings amount after the given number of years, considering interest and contributions.
