@@ -1,0 +1,11 @@
+This project demonstrates the AAA pattern and uses:
+
+@BeforeEach to initialize a Rectangle before every test
+@AfterEach for cleanup
+Assertions to validate area, perimeter, and resizing
+
+Expected Input & Output:
+Method	Input	Output
+calculateArea()	5.0, 3.0	15.0
+calculatePerimeter()	5.0, 3.0	16.0
+resize(2.0) + area	After resize	30.0
