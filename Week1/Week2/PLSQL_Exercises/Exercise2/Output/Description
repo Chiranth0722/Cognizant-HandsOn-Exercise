@@ -1,0 +1,11 @@
+Problem: Simulate Stored Procedure – Area of Rectangle
+
+Description:
+This program uses a Java method (like a stored procedure) to calculate the area of a rectangle. The method takes length and width as inputs and returns the computed area.
+
+Expected Input:
+Enter length: 10  
+Enter width: 5
+
+Expected Output:
+Area of rectangle: 50.0
