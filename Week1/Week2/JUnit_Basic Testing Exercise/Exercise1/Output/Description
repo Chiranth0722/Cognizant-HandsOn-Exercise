@@ -1,0 +1,9 @@
+Description:
+This Java program converts Celsius to Fahrenheit and uses JUnit 5 to validate two known conversions.
+
+Expected Input & Output:
+Input (Celsius)	Expected Output (Fahrenheit)
+0	32.0
+100	212.0
+
+The test passes when output matches exactly (with a small delta for float precision).
