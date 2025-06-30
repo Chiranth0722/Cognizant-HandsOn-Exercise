@@ -1,1 +1,13 @@
-a
+Scenario:
+You're testing a FileUploader that relies on a CloudStorageService.
+You’ll mock the CloudStorageService, perform an action, and verify that it was called correctly.
+
+Description:
+This test verifies that:
+uploadFile() and deleteFile() are both called with the correct filename
+No other methods were unexpectedly called using verifyNoMoreInteractions()
+
+Expected Interactions:
+Method Called	Argument
+uploadFile()	"report.pdf"
+deleteFile()	"report.pdf"
