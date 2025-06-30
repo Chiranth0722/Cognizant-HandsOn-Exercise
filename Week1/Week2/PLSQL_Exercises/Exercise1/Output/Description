@@ -1,0 +1,10 @@
+Problem: Check if a Number is Prime
+
+Description:
+This program demonstrates the use of loops and if-else statements to determine whether a number is prime. It checks divisibility from 2 to √n.
+
+Expected Input:
+Enter a number: 11
+
+Expected Output:
+11 is a prime number.
