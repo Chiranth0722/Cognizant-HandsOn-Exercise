@@ -1,1 +1,13 @@
-a
+Exercise 1: Mocking and Stubbing (TDD using JUnit 5 + Mockito)
+
+Description:
+
+This test uses Mockito to:
+Mock the WeatherService interface
+Stub its getForecast() method
+Verify how WeatherReporter uses the mock
+This is a great example of unit testing with dependencies, without using the real implementation.
+
+Expected Input & Output:
+City	Mocked Forecast	Final Report
+Bangalore	"Sunny with 30°C"	"Weather in Bangalore: Sunny with 30°C"
