@@ -1,0 +1,14 @@
+This code tests a Student class using JUnit 5 assertions like:
+
+assertTrue(), assertFalse() for pass status
+
+assertEquals(), assertNotEquals() for grade
+
+assertNotNull() for student name
+
+Expected Input & Output:
+Name	Marks	hasPassed	Grade
+Alice	 45	  true	      C
+Bob	   30	  false       D
+Eva	   90	  true	      A
+Tom	   39	  false	      D
