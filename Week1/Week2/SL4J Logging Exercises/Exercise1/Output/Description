@@ -1,1 +1,14 @@
-a
+Exercise 1: SLF4J – Logging Error Messages and Warning Levels
+Using SLF4J with org.slf4j.simple backend to log errors and warnings.
+
+Description:
+This code logs:
+✅ INFO on successful login
+⚠ WARN on incorrect login
+❌ ERROR if username or password is null
+It uses SLF4J with a simple backend (you must include JARs below).
+
+Expected Output:
+INFO  LoginService - User authenticated successfully
+WARN  LoginService - Failed login attempt for user: admin
+ERROR LoginService - Username or password is null
