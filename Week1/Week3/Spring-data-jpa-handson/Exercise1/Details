@@ -1,0 +1,14 @@
+ Spring Data JPA – Quick Example
+🔹 Domain: Student
+
+💡 Description:
+This Spring Boot application uses Spring Data JPA to manage Student entities. It demonstrates how to:
+Create a JPA entity
+Use a JPA repository
+Run a basic insert and fetch operation using H2 database
+
+✅ Technologies Used:
+Spring Boot
+Spring Data JPA
+H2 Database (no installation needed)
+Maven
