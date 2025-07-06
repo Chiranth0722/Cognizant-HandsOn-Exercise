@@ -1,7 +1,9 @@
 Spring Core – Exercise 4: Creating and Configuring a Maven Project
 
 💡 Description:
-This exercise demonstrates creating a Spring Maven Project from scratch, adding Spring dependencies, and configuring a simple Spring bean via XML. The bean (Animal) will be loaded and used in a main class.
+This exercise covers setting up a Spring Core Maven project from scratch. You'll add Spring dependencies to the pom.xml, configure a custom bean (Course) using an XML configuration file, and retrieve it in a main class (TrainingCenter) to demonstrate the basic functionality of a Spring-managed component.
 
 ✅ Expected Output:
-Tiger says Roar
+Training Center offers:
+Course Name: Java Backend Development
+Duration: 12 Weeks
