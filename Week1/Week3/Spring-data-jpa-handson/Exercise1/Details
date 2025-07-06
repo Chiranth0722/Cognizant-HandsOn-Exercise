@@ -1,14 +1,21 @@
- Spring Data JPA – Quick Example
-🔹 Domain: Student
+Spring Data JPA – Quick Example
+🔹 Domain: Gadget
 
 💡 Description:
-This Spring Boot application uses Spring Data JPA to manage Student entities. It demonstrates how to:
-Create a JPA entity
-Use a JPA repository
-Run a basic insert and fetch operation using H2 database
+This Spring Boot application showcases how to use Spring Data JPA to manage Gadget entities. It demonstrates how to:
+
+Define a JPA entity representing a gadget
+
+Create and use a JPA repository interface
+
+Perform basic insert and fetch operations on an in-memory H2 database
 
 ✅ Technologies Used:
+
 Spring Boot
+
 Spring Data JPA
-H2 Database (no installation needed)
+
+H2 Database (embedded, no setup required)
+
 Maven
