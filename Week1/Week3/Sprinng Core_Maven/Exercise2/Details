@@ -1,10 +1,9 @@
-Spring Core - Exercise 2
-🔹 Implementing Dependency Injection (DI)
+Spring Core – Exercise 2
+🔹 XML-Based Dependency Injection
 
 💡 Description:
-In this example, we'll implement Dependency Injection (DI) using XML-based configuration.
-We'll inject a Book object into a Library bean to demonstrate "has-a" relationship injection.
+This exercise showcases how to perform Dependency Injection (DI) in a Spring Core application using XML configuration. An Author object is injected into an ArticleService bean, demonstrating a real-world "has-a" association managed by the Spring container.
 
 🟢 Expected Output:
-Library contains:
-Book: Clean Code by Robert C. Martin
+Author Name: Dr. A. I. Sharma
+Expertise: Machine Learning
