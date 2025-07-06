@@ -1,5 +1,5 @@
 Description:
-Create a basic Spring Core application using Maven to manage dependencies, configure a Spring bean using an XML file, and retrieve it in the main class.
+Develop a simple Spring Core application using Maven for dependency management. Define a Spring bean in an XML configuration file and load it in the main application to display a welcome message.
 
 Expected Output:
-Message: Welcome to Spring Core!
+Message: Hello from Spring Core!
