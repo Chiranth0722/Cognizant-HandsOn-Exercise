@@ -1,0 +1,49 @@
+Exercise 4 - Spring Boot REST API (List of Countries)
+
+This exercise demonstrates the implementation of a simple REST API using **Spring Boot 3** that returns a list of countries in JSON format.
+
+📝 Description
+
+In this Spring Boot application, we create a REST endpoint (`/countries`) which returns a list of predefined countries using a controller and service class. The response is served in JSON format. This demonstrates basic use of `@RestController`, `@GetMapping`, dependency injection with `@Autowired`, and returning a list of custom objects in a RESTful way.
+
+📥 Sample Input (Request)
+
+GET http://localhost:8080/countries
+
+You can test this using Postman or a web browser after running the application.
+
+📤 Sample Output (Response)
+[
+  {
+    "code": "IN",
+    "name": "India"
+  },
+  {
+    "code": "US",
+    "name": "United States"
+  },
+  {
+    "code": "JP",
+    "name": "Japan"
+  }
+]
+
+⚙️ Technologies & Tools Used
+Java 17
+
+Spring Boot 3.5.3
+
+Spring Web
+
+Eclipse IDE 
+
+Embedded Apache Tomcat (default port 8080)
+
+🚀 How to Run
+Open the project in Eclipse or IntelliJ.
+
+Run the main application class:
+SpringRestHandsonApplication.java
+
+Open browser or Postman and visit:
+http://localhost:8080/countries
