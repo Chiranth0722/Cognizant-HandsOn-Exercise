@@ -1,0 +1,56 @@
+# JWT Authentication API using Spring Boot 3
+
+This project demonstrates how to create a simple authentication service using Spring Boot 3 and JWT (JSON Web Tokens).
+## 🔧 Tech Stack
+
+- Java 17
+- Spring Boot 3
+- Spring Security
+- JWT (io.jsonwebtoken)
+- H2 Database (in-memory)
+- Maven
+- Lombok
+
+## ✅ API Endpoints
+
+### 🔐 `POST /auth/login`
+
+> Authenticates a user and returns a JWT token.
+
+**Request Body:**
+{
+  "username": "your-username",
+  "password": "your-password"
+}
+
+Response:
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6..."
+}
+
+▶️ Running the Application
+💡 Prerequisites
+Java 17
+
+Eclipse:
+Right-click on JwtAuthApiApplication.java → Run As → Java Application
+
+🔑 How JWT Works Here
+User sends login credentials to /auth/login
+
+Credentials are authenticated using AuthenticationManager
+
+A JWT is generated using JwtService and sent back in response
+
+🧪 Testing with Postman
+Start the app
+
+Use Postman to POST to:
+
+POST http://localhost:8080/auth/login
+Request Body (JSON):
+{
+  "username": "admin",
+  "password": "1234"
+}
+Copy the JWT token from the response.
