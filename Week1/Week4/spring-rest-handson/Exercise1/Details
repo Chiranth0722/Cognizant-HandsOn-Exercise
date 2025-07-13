@@ -1,0 +1,19 @@
+Exercise 1: Spring Web Project Setup
+📄 Description:
+Create a basic Spring Boot project using Maven that exposes a simple REST API using Spring Web.
+
+📥 Sample Input (URL):
+http://localhost:8080/hello
+
+📤 Sample Output (Response):
+Hello from Spring Boot!
+
+🛠️ What is Used to Bring this Output:
+
+Spring Boot Starter Web (dependency for REST APIs)
+
+Main Class (SpringRestHandsonApplication.java) to launch the Spring Boot app
+
+Controller Class (HelloController.java) to define the /hello endpoint
+
+Embedded Tomcat Server started automatically by Spring Boot on port 8080
