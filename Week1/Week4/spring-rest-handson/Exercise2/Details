@@ -1,0 +1,22 @@
+Exercise 2: Load Country from Spring Configuration XML
+📄 Description:
+This exercise demonstrates how to configure a Spring bean using an XML file and load it using ClassPathXmlApplicationContext. A Country object is defined in beans.xml and retrieved in a Java application.
+🧪 Sample Input:
+(Defined in beans.xml)
+
+<bean id="country" class="com.example.demo.Country">
+    <property name="name" value="India"/>
+    <property name="capital" value="New Delhi"/>
+</bean>
+
+📤 Sample Output (from console):
+
+Country Name: India  
+Capital: New Delhi
+
+🛠 Used Components:
+Spring Core (org.springframework.context)
+
+ClassPathXmlApplicationContext to load XML configuration
+
+Java class Country.java with standard getters, setters, and toString()
