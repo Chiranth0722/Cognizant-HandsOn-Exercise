@@ -1,0 +1,18 @@
+Exercise 3 - Simple Spring Boot REST Controller
+
+📄 Description:
+This exercise demonstrates the creation of a basic REST API using Spring Boot. A controller is created to respond with a welcome message at a specific endpoint.
+
+🧪 Sample Input:
+GET request to:
+http://localhost:8080/welcome
+
+✅ Output:
+Welcome to Spring Boot!
+
+
+⚙️ What’s Used:
+- `@RestController` for creating REST API
+- `@GetMapping` for defining GET endpoint
+- Spring Boot embedded Tomcat server (port 8080)
+- Java 17 + Spring Boot 3.5.3
